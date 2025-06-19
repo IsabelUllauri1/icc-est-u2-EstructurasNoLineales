@@ -5,7 +5,16 @@ import materia.models.Node;
 //es nullo, pregunta si tiene hijos, y de nuevo derecha o izquierda
 
 public class ArbolBinario {
+    private int peso;
     private Node root;
+
+    public int getPeso(){
+        return peso;
+    }
+
+    public Node getRoot() {
+        return root;
+    }
 
     public ArbolBinario(){
         this.root= null;
@@ -72,12 +81,30 @@ public class ArbolBinario {
         }else{
             return buscarRec(root.getRight(), value);
         }
-
-        
-
-        
+     
         
     }
+
+    public int getHeight(){
+        return getHeightRec(root);
+    }
+
+    private int getHeightRec(Node node){
+        if(node==null){
+            return 0;
+        }
+        int  leftHeight= getHeightRec(node.getLeft());
+        int rightHeight= getHeightRec(node.getRight());
+        return Math.max(leftHeight, rightHeight)+1;            
+    }
+    public void imprimirPesoYValor(){
+        
+    }
+
+    
+
+    
+
 
 
     

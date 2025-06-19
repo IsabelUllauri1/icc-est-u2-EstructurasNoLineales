@@ -13,7 +13,6 @@ public class App {
         aB.insert(19);
 
         aB.imprimirArbol();
-
         
         System.out.println(aB.buscar(1));
         System.out.println(aB.buscar(19));
