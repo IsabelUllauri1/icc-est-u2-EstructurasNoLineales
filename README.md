@@ -1,6 +1,24 @@
 
-![Descripcio](img/estr.png)
+# Práctica de Algoritmos de Ordenamiento
 
-## Dependency Management
+## 📌 Información General
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Título:** Práctica de Estrucutras No Lineales
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** Isabel Ullauri
+- **Fecha:** 19/6/2025
+- **Profesor:** Ing. Pablo Torres
+
+---
+
+## 🛠️ Ejemplo de Salida
+
+![estr](https://github.com/user-attachments/assets/04b3207d-3e9e-4182-810a-c0cad1d5fcb5)
+
+
+
+
+```
+
+---
