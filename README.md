@@ -1,5 +1,5 @@
 
-# Práctica de Algoritmos de Ordenamiento
+# Práctica de Estructuras No Lineales
 
 ## 📌 Información General
 
